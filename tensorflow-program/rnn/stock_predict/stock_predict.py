@@ -8,7 +8,8 @@ Created on 2017年2月19日
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import tensorflow as tf
+#import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 #——————————————————导入数据——————————————————————
 f=open('stock_dataset.csv')  
